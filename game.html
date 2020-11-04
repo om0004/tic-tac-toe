@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic tac toe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+	<link rel="stylesheet" href="game_css.css">
+</head>
+<body onload="om()">
+		<h1>Tic Tac Toe<hr></h1>
+		<table id="display">
+			<tr>
+		<td><input type='text' id='first' disabled ></td>
+		<td><input type='text' id="second" disabled></td>
+		<td><input type='text' id="third" disabled></td>
+	</tr>
+	</table >
+	<br>
+		<div id="dog">
+			<table id="display2">
+				<tr class="bottom">
+					<td class="right" style=""><button id="_00" onclick="func3('_00')" class="btn" ></button></td>
+					<td class="right"><button id="_01" onclick="func3('_01')" class="btn"></button></td>
+					<td><button id="_02" onclick="func3('_02')" class="btn"></button></td>
+				</tr>
+				<tr class="bottom">
+					<td class="right"><button id="_10" onclick="func3('_10')" class="btn"></button></td>
+					<td class="right"><button id="_11" onclick="func3('_11')" class="btn"></button></td>
+					<td><button id="_12" onclick="func3('_12')" class="btn"></button></td>
+				</tr>
+				<tr>
+					<td class="right"><button id="_20" onclick="func3('_20')" class="btn"></button></td>
+					<td class="right"><button id="_21" onclick="func3('_21')" class="btn"></button></td>
+					<td><button id="_22" onclick="func3('_22')" class="btn"></button></td>
+				</tr>
+			</table>
+		</div>
+		<table id="display3">
+			<tr>
+				<td><button onclick="location.reload()">Reset</button></td>
+				<td><button onclick="location.href = 'firstpage.html';">Exit</button></td>
+			</tr>
+		</table>
+		<script src='js.js'></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+	left:0;
+	right:0;
+}
+body{
+	background: #4ECDC4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	color:#920ceb;
+}
+hr
+{
+	width:300px;
+	height:4px;
+	color:white;
+	background-color:white;
+}
+#dog{
+background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ width:60%;
+ margin:auto;
+ height:400px;
+ border-radius:25px;
+ padding-top:6%;
+}
+table{
+	width:60%;
+	margin:auto;
+	margin-top:20px;
+	border-collapse: collapse;
+	text-align:center;
+	height:70%;
+}
+#display2 td{
+	width:40px;
+	height:40px;
+	
+}
+.right{
+	border-right:6px solid white;
+}
+.bottom{
+	border-bottom:6px solid white
+}
+#first{
+	float:left;
+}
+#second{
+	display: grid;
+	margin:auto;
+
+}
+#third{
+	float:right;
+}
+#display
+{
+	width:100%;
+}
+#display input
+{
+	width:50%;
+	height:40px;
+	border-radius:15px;
+	outline:none;
+	border:none;
+	color:white; 
+	text-align:center;
+	font-weight:bold;
+}
+.btn{
+	background-color:transparent;
+ border:none;
+ outline:none;
+ width:98%;
+ height:98%;
+
+
+}
+
+#display3 button{
+	width:30%;
+	height:40px;
+	border-radius:20px;
+	border:none; outline:none;
+	background-color:white;
+	color:#C041BC;
+}
+#display3 button:hover{
+	background-color:#C041BC;
+	color:white;
+}
+#_00
+{
+	
+}
