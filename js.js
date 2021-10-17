@@ -166,3 +166,7 @@ function func3(a)
 	}
 	Tarun++;
 }
+
+function fvcxvcx(){
+	console.log("nbvbvb");
+}
